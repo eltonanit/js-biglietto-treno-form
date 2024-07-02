@@ -14,12 +14,11 @@ MILESTONE 2: Solo una volta che il milestone 1 sarà completo e funzionante allo
 Nota: Se non vi sentite particolarmente creativi, questa potrebbe essere un’implementazione da seguire per il secondo milestone. Potete scegliere di implementare una soluzione completamente diversa oppure simile, ma in ogni caso cercate di farla vostra.
 
 
-1-
-2-
-3-
-4-
-5-
-6-
-7-
-8-
-9-
+1- creo index.html
+2-creo fil js-css
+3-Nel file js prendo i bottoni calculate e reset
+4-Calcolo il prezzo km per 0.21 poi verifico l'età
+5-Condizione dell'eta per minorenni
+6-Condizione per eta minore over 65
+7-Creo messaggi output e per il DOM
+8-Creo bottone per svuotare il messaggio/biglietto
