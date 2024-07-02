@@ -33,3 +33,11 @@ btn.addEventListener('click', function() {
     document.getElementById('message').innerHTML = message;
 
 })
+
+btn_reset = addEventListener('click', function () {
+
+    document.getElementById('km').value;
+    document.getElementById('age').value;
+    document.getElementById('message').innerHTML;
+
+});
