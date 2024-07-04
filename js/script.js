@@ -21,9 +21,9 @@ btn.addEventListener('click', function() {
         message = `<h2> Il prezzo del tup biglietto è pari a ${final_price.toFixed(2)}. Sei minorenne hai diritto ad uno sconto</h2>`;
 
     }
-    else (age == 2) {
+    else if (age == 2) {
         final_price *= 0.6;
-                message = `<h2> Il prezzo del tup biglietto è pari a ${final_price.toFixed(2)}. Sei minorenne hai diritto ad uno sconto</h2>`;
+         
     }
 
     //genero mesaggio
@@ -34,10 +34,12 @@ btn.addEventListener('click', function() {
 
 })
 
-btn_reset = addEventListener('click', function () {
+document.addEventListener('DOMContentLoaded', function () {
+    let btn_reset = document.getElementById('btn_reset');
 
-    document.getElementById('km').value;
-    document.getElementById('age').value;
-    document.getElementById('message').innerHTML;
-
+    btn_reset.addEventListener('click', function () {
+        document.getElementById('km').value = '';
+        document.getElementById('age').value = '';
+        document.getElementById('message').innerHTML = '';
+    });
 });
